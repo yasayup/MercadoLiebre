@@ -1,0 +1,74 @@
+.burger-menu{
+    display:none;
+}
+
+.logo-input-icon-compra{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text-align-center{
+    font-size: 12px;
+    margin-top:15px;
+    margin-right: 5px;
+    text-align: right;
+    max-width: 130px;
+}
+
+#ml-main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ml-main-nav ul{
+    display: flex;
+}
+
+#ml-main-nav li{
+    margin: 0% 5px;
+    font-size: 12px;
+}
+
+.product-wrapper{
+    box-shadow: none;
+}
+
+.contenido-articulo{
+    background-color: white;
+    width: 35%;
+}
+
+.contenido-articulo .text-desc{
+    opacity: 0;
+}
+
+.contenido-articulo:hover .product-wrapper{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.product-wrapper:hover .text-desc{
+    transition: opacity none 450ms;
+    opacity: 1;
+}
+.truck{
+    transition: transform ease-in-out 500ms;
+}
+
+.product-wrapper:hover .truck{
+    transform: rotate(360deg) ;
+}
+
+/* register */
+
+.form-register{
+    width: 60%;
+    margin:auto;
+}
+
+/* login */
+
+.form-login{
+    width: 60%;
+    margin:auto;
+}

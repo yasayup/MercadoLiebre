@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0px;
+}
+
+body{
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+/* HEADER */
+.ml-yellow-background{
+    background-color: #EAC926;
+    padding-bottom: 15px;
+}
+
+.logo-input-icon{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;   
+}
+
+#logo{
+    width: 50%;
+    padding: 15px;
+}
+
+.input-search{
+    width:50%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: absolute;
+    margin-top: 5%;
+    margin-right: 5px;
+    right: 0px;
+}
+
+.search-icon{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+
+.text-align-center{
+    text-align: center;
+}
+
+#ml-main-nav{
+    display: none;
+}
+
+#ml-main-nav ul{
+    padding: 0px;
+    list-style-type: none;
+}
+
+#ml-main-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.burger-menu{
+    text-align: center;
+    font-size: 24px;
+    width: 40px;
+    padding: 8px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #1259c3;
+}
+
+.burger-menu i{
+    color: white
+}
+
+
+/* ARTICULOS */
+
+.bg-color{
+    background-color: #ebebeb;
+    padding-bottom: 5px;
+}
+
+.text-tittle{
+    font-size: 24px;
+    padding-left: 15px;
+    color: #666;
+    padding-top: 10px;
+    margin: 0px 10px 10px;
+}
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.contenido-articulo{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.items{
+    border-top: solid 1px #ebebeb;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: relative;
+}
+
+.truck{
+    padding: 5px;
+    display: block;
+    font-size: 16px;
+    color: green;
+    border: solid 2px green;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+    right: 20px;
+    top:-20px;
+    background-color: white;
+}
+
+.text-price{
+    font-size: 14px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+}
+
+.text-disc{
+    font-size: 12px;
+    padding-left: 5px;
+    color: #39b54a;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.text-desc{
+    display: block;
+    font-size: 12px;
+    padding: 5px;
+    color: #666;
+}
+
+/* REGISTER */
+
+.form-input .main-label{
+    display:block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-input input{
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: none;
+    margin-top: 5px;
+}
+
+.form-input input[type="checkbox"], 
+.form-input input[type="radio"]{
+    width: auto;
+}
+
+.form-input{
+    padding-bottom: 10px;
+}
+
+.padding{
+    padding: 24px;
+}
+.button-login{
+    width: 80%;
+    margin-left: 10%;
+    background-color: #1259c3;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.button-submit,
+.button-reset{
+    background-color: #1259c3;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.error{
+    margin-top:0px;
+    color: red;
+    font-size: 10px;
+}
+
+/* FOOTER */
+
+.pagos{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.card{
+    font-size: 28px;
+    color: blue;
+}
+
+.envios{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.gift{
+    font-size: 28px;
+    color: blue;
+}
+
+.seguridad{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.shield{
+    font-size: 28px;
+    color: blue;
+}
+
+.copy{
+    color: #666;
+    padding: 5%;
+}
+
+.h-footer{
+    margin-bottom: 0px;
+}
+
+.p-footer{
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.copy{
+    font-weight: bold;
+}
+

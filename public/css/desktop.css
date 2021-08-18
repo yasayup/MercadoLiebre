@@ -1,0 +1,43 @@
+
+.text-align-center{
+    margin-top:20px;
+    margin-right: 15px;
+    max-width: 300px;
+}
+
+
+.contenido-articulo{
+    padding: 0px;
+    width: 20%;
+}
+
+/* footer */
+
+.contenedor-footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+.pagos,
+.envios,
+.seguridad{
+    width: 30%;
+}
+
+.card:hover,
+.gift:hover,
+.shield:hover
+{
+    color: #EAC926;
+}
+
+.h-footer{
+    margin-bottom: 0px;
+}
+
+.p-footer{
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
