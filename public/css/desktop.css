@@ -9,6 +9,11 @@
     width: 500px;
 }
 
+.input-search{
+    width: 250px;
+    left: 51%;
+}
+
 .text-align-center{
     margin-top:30px;
     margin-right:15px;
@@ -39,14 +44,14 @@
 /* Register login */
 
 .form-register{
-    width: 70%;
-    margin-left: 35%;
+    width: 280px;
+    margin-left: auto;
 }
 
 .button-submit,
 .button-reset{
-    width: 20%;
-    margin-left:15px;
+    width: 100px;
+    margin-left: 15px;
 }
 
 /* Articulos */
