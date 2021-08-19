@@ -29,24 +29,26 @@ body{
 }
 
 .input-search{
-    width:50%;
+    width:47%;
     padding-bottom: 5px;
     padding-top: 5px;
     position: absolute;
     margin-top: 5%;
-    margin-right: 5px;
+    margin-right: 15px;
     right: 0px;
+    border-radius: 10px;
+    border-style: none;
 }
 
 .search-icon{
     position: absolute;
-    right: 10px;
+    right: 15px;
     top: 25px;
 }
 
-
 .text-align-center{
     text-align: center;
+    font-weight: bold;
 }
 
 #ml-main-nav{
@@ -70,13 +72,13 @@ body{
     padding: 8px;
     margin: 0 auto;
     border-radius: 5px;
-    background-color: #1259c3;
-}
-
-.burger-menu i{
+    background-color: #1259c3; 
     color: white
 }
 
+.banner{
+    display: block;
+}
 
 /* ARTICULOS */
 
@@ -101,7 +103,7 @@ body{
 .contenido-articulo{
     width: 90%;
     margin: auto;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     background-color: white;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
@@ -150,7 +152,20 @@ body{
     color: #666;
 }
 
-/* REGISTER */
+/* REGISTER LOGIN*/
+.form-register{
+    margin-left: 30px;
+}
+
+.title-register{
+    text-align: center;
+}
+
+.form-login,
+.title-login{
+    text-align: center;
+}
+
 
 .form-input .main-label{
     display:block;
@@ -159,11 +174,14 @@ body{
 }
 
 .form-input input{
-    width: 100%;
     padding-bottom: 5px;
     padding-top: 5px;
+    padding-left: 5px;
     border: none;
     margin-top: 5px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
 }
 
 .form-input input[type="checkbox"], 
@@ -179,20 +197,24 @@ body{
     padding: 24px;
 }
 .button-login{
-    width: 80%;
-    margin-left: 10%;
+    width: 130px;
+    text-align: center;
     background-color: #1259c3;
     color: white;
     border: none;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .button-submit,
 .button-reset{
     background-color: #1259c3;
+    width: 30%;
     color: white;
     border: none;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25px;
 }
 
 .error{
@@ -243,7 +265,7 @@ body{
 }
 
 .p-footer{
-    margin-top: 0px;
+    margin-top: 10px;
     margin-left: 15%;
     margin-right: 15%;
 }

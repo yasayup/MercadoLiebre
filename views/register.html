@@ -32,15 +32,15 @@
         </div>
     
         <nav id="ml-main-nav">
-            <ul class="left-navbar">
+            <ul>
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
                 <li><a href="#">Vender</a></li>
                 <li><a href="#">Comprar</a></li>
             </ul>
             <br>
-            <ul class="right-navbar">
-                <li><a href="/register">Creá tu cuenta<i class="far fa-address-card"></i>
+            <ul>
+                <li><a href="/register">Creá tu cuenta <i class="far fa-address-card"></i>
                     </a></li>
                 <li><a href="/login">Ingresá
                         <i class="fas fa-sign-in-alt"></i>
@@ -60,27 +60,30 @@
     </header>
 
     <main class="padding bg-color">
-        <h1> Registro </h1>
+        <h1 class="title-register"> Registro de Usuario</h1>
         <form class="form-register" action="/">
             <div class="form-input">
-            <label class="main-label" for="firstname">Nombre</label>
-            <input id="firstname" type="text" name="firstname" placeholder="Nombre y Apellido"/>
+            <label class="main-label" for="firstname">Nombre y Apellido</label>
+            <input id="firstname" type="text" name="firstname" placeholder="Ej: Juan Perez"/>
             <p class="error">Este campo es obligatorio</p>
             </div>
 
             <div class="form-input">
                 <label class="main-label" for="username">Nombre de usuario</label>
-                <input id="username" type="text" name="username" placeholder="Nombre de usuario" />
+                <input id="username" type="text" name="username" placeholder="Ej: jperez" />
+                <p class="error">Este campo es obligatorio</p>
             </div>
 
             <div class="form-input">
                 <label class="main-label" for="birthdate">Fecha de nacimiento</label>
                 <input id="birthdate" type="text" name="birthdate" placeholder="mm / dd / yyyy" />
+                <p class="error">Este campo es obligatorio</p>
             </div>
 
             <div class="form-input">
                 <label class="main-label" for="address">Direccion</label>
-                <input id="address" type="text" name="address"/>
+                <input id="address" type="text" name="address" placeholder="Ej: Julio Verne 5296"/>
+                <p class="error">Este campo es obligatorio</p>
             </div>
 
             <div class="form-input">
