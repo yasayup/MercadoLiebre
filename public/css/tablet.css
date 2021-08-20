@@ -41,10 +41,9 @@
 /* register */
 
 .form-register{
-    width: 65%;
+    width: 300px;
     margin:auto;
     border: 3px solid white;
-    padding: 15px;
 }
 
 .button-submit,
