@@ -1,29 +1,24 @@
-.burger-menu{
-    display:none;
-}
-.search-icon{
-    top: 33px;
-}
-
-.logo-input-icon{
-    width: 500px;
-}
-
-.input-search{
-    width: 250px;
-    left: 51%;
-}
-
-.text-align-center{
-    margin-top:30px;
-    margin-right:15px;
-    max-width: 330px;
-}
-
-.logo-input-icon-compra{
+.mainheader-topbar{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 15px;
+}
+
+#logo{
+    width: 200px;
+}
+
+.logo-input-icon{
+    margin-top: 20px;
+}
+
+.text-align-center{
+    margin-top: 25px;
+}
+
+.burger-menu{
+    display:none;
 }
 
 #ml-main-nav{
@@ -44,6 +39,7 @@
 /* Register login */
 
 .form-register{
+    width: 280px;
     margin-left: auto;
 }
 
